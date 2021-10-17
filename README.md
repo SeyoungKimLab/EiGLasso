@@ -1,4 +1,4 @@
-# EiGLasso (flip-flop version)
+# EiGLasso (flip-flop optimization)
 A scalable optimization method for learning the Kronecker sum of two sparse inverse covariance matrices. This software implements a flip-flop version of EiGLasso introduced in the paper,
 > Jun Ho Yoon and Seyoung Kim. EiGLasso: Scalable Estimation of Cartesian Product of Sparse Inverse Covariance Matrices. *Uncertainty in Artificial Intelligence (UAI)* 2020.
 
