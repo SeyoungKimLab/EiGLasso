@@ -131,8 +131,7 @@ EiGLasso can be used as a MATLAB function.
 Example data is available in [demo/example.mat](demo/example.mat).
 
   ```bash
-  S = load('demo/S.txt');
-  T = load('demo/T.txt');
+  load('demo/example.mat');
   [Theta, Psi, ts, fs] = eiglasso_flip(S, T, 0.1, 0.1);
   [Theta, Psi, ts, fs] = eiglasso_flip(S, T, 0.1, 0.1, 1, 10000, 20, 0.001, 0.01, 1);
   ```
