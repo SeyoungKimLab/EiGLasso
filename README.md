@@ -12,12 +12,14 @@ EiGLasso can be used as either
 ## 1. Command-line application (Linux, MacOS)
 
   ### 1.1 Prerequisite
+  #### (MacOS Only)
+Install Xcode or Xcode Command Line Tools.
+  
   #### Intel Math Kernel Library (MKL) ####
 
 1. Install oneAPI MKL ([link](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#onemkl))
 2. Specify the directory where MKL is installed in [Makefile](Makefile) (e.g. MKLROOT=/home/junhoy/intel/mkl)
-3. (macOS only) Install Xcode or Xcode Command Line Tools.
-4. (optional) Use the link line advisor from Intel ([link](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl/link-line-advisor.html)) if EiGLasso does not compile correctly.
+3. (optional) Use the link line advisor from Intel ([link](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl/link-line-advisor.html)) if EiGLasso does not compile correctly.
 
 
   ### 1.2 Installation
