@@ -225,7 +225,7 @@ static inline double lineSearch(const int dim, const int dim_other, const int ma
 		for (int i = 0; i < dim; i++) {
 			unsigned long ii = i * dim + i;
 			W[ii] = X[ii] + alpha * D[ii]; // store theta + alpha*D
-			W[ii] += 1e-8;
+			//W[ii] += 1e-8;
 			trSX1 += W[ii] * S[ii];
 		}
 
@@ -673,8 +673,8 @@ int main(int argc, char** argv) {
 			for (int j = 0; j <= i; j++) {
 				unsigned long ij = i * p + j;
 				eigvec_the[ij] = Theta[ij];
-				if (i == j)
-					eigvec_the[i * p + i] += 1e-8;
+				//if (i == j)
+					//eigvec_the[i * p + i] += 1e-8;
 			}
 		}
    
@@ -724,8 +724,8 @@ int main(int argc, char** argv) {
 			for (int j = 0; j <= i; j++) {
 				unsigned long ij = i * q + j;
 				eigvec_psi[ij] = Psi[ij];
-				if (i == j)
-					eigvec_psi[i * q + i] += 1e-8;
+				//if (i == j)
+					//eigvec_psi[i * q + i] += 1e-8;
 			}
 		}
 
