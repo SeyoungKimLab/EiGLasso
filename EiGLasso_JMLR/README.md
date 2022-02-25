@@ -32,7 +32,7 @@ Install Xcode or Xcode Command Line Tools.
   
   ### 1.3 Input & Output Files
   
-  All matrices are space-separated text files. Example files are in [demo](demo/).
+  All matrices are space-separated text files. Example files are in [demo](../demo/).
   
   #### Input ####
   * S.txt: empirical covariance for Theta (the left matrix in Kronecker sum)
