@@ -2,7 +2,7 @@
 A scalable optimization method for learning a Kronecker-sum inverse covariance matrix. Implementations of two different optimization methods are available:
 
  
-> joint optimization ([EiGLasso_JMLR](EiGLasso_JMLR/))
+> Joint optimization ([EiGLasso_JMLR](EiGLasso_JMLR/))
 > 
 > Jun Ho Yoon and Seyoung Kim. EiGLasso: Scalable Estimation of Cartesian Product of Sparse Inverse Covariance Matrices. *Uncertainty in Artificial Intelligence (UAI)*, 2020.  
 
