@@ -1,5 +1,5 @@
 # EiGLasso (joint optimization)
-A scalable optimization method for learning the Kronecker sum of two sparse inverse covariance matrices. This software implements a joint optimization of EiGLasso introduced in the paper,
+This software implements EiGLasso with a joint optimization of two graph parameters introduced in the following paper:
 > Jun Ho Yoon and Seyoung Kim. EiGLasso for Scalable Sparse Kronecker-Sum Inverse Covariance Estimation. *Journal of Machine Learning Research (JMLR)*, 2022.
 
 EiGLasso can be used as either 
